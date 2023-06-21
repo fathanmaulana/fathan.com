@@ -143,6 +143,43 @@
         </div>
       </div>
     </div>
+
+    <section id="keyboard">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My-Keyboard</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h2 class="keyboard-name">key-1</h2>
+              <img src="img/keyboard/key1.png" alt="key-1" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h2 class="keyboard-name">key-2</h2>
+              <img src="img/keyboard/key2.png" alt="key-2" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h2 class="keyboard-name">key-3</h2>
+              <img src="img/keyboard/key3.png" alt="key-3" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="white" fill-opacity="1"
         d="M0,192L30,213.3C60,235,120,277,180,277.3C240,277,300,235,360,218.7C420,203,480,213,540,213.3C600,213,660,203,720,213.3C780,224,840,256,900,234.7C960,213,1020,139,1080,101.3C1140,64,1200,64,1260,80C1320,96,1380,128,1410,144L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
@@ -327,6 +364,14 @@
     });
   </script>
 
+
+  <script type="text/javascript" src="Js/vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+      max: 27,
+      speed: 400
+    });
+  </script>
 
 </body>
 
